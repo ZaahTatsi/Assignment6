@@ -21,5 +21,5 @@ jobs:
       - name: Build and push container
         run: |
           docker build -t my-container .
-          docker tag my-container ZaahTatsi/Assignment6:v1
-          docker push ZaahTatsi/Assignment6:v1
+          docker tag my-container tayitatsi/Assignment6:v1
+          docker push tayitatsi/Assignment6:v1
